@@ -1,5 +1,6 @@
 class PigLatinizer
   
+<<<<<<< HEAD
   attr_reader :words
   
   def initialize(words=nil)
@@ -46,4 +47,20 @@ class PigLatinizer
   
   
   
+=======
+  attr_reader :phrase
+  
+  def initialize(phrase)
+    @phrase = phrase.downcase
+  end
+  
+  def latinize
+    parsed_phrase = self.phrase.split(" ")
+    parsed_phrase.each do |word|
+      
+    end
+  end
+  
+  
+>>>>>>> d6785fdcb67d745ef64e80f76aa4fcbbce710588
 end

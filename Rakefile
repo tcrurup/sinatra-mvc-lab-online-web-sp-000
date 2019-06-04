@@ -6,6 +6,9 @@ require_relative './config/environment'
 
 task :console do
   x = PigLatinizer.new("I'm not clumsy, The floor just hates me, the table and chairs are bullies and the walls get in my way.")
+<<<<<<< HEAD
   y = WordAnalyzer.new("string")
+=======
+>>>>>>> d6785fdcb67d745ef64e80f76aa4fcbbce710588
   binding.pry
 end
